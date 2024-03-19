@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="blink_eye_ytu"
+        android:label="BlinkEye"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

@@ -10,7 +10,7 @@ Future<void> main() async {
   // //      // herşeyin düzgün olduğundan emin ol anlamına geliyor
   // try {
   //   await Firebase.initializeApp(
-  //       options: DefaultFirebaseOptions.currentPlatform);
+  //       options: DefaultFirebaseOptions.currentPlatform); // bu olmaz ise çalışmaz
   //   // bunu kullanabilmek için feture kısmını ekledik ve async yaptık // current platform hangi platforma çağrılırsa onun ayarlarını getir burdan fairbase bizim kim olduğumuzu bilir
   // } catch (error) {
   //   print(error);
@@ -18,3 +18,6 @@ Future<void> main() async {
   // FlutterNativeSplash.remove();
   runApp(HomePage());
 }
+
+
+// cors ayarları yapılamadı google kısmına tekrardan bak 
