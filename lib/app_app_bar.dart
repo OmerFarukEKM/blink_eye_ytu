@@ -1,3 +1,4 @@
+import 'package:blink_eye_ytu/find_bluetooth.dart';
 import 'package:flutter/material.dart';
 
 class AppAppBar extends StatefulWidget implements PreferredSizeWidget {
@@ -42,9 +43,10 @@ class _AppAppBarState extends State<AppAppBar> {
       actions: [
         IconButton(
           onPressed: () {
-            // Navigator.push(context
-            //      MaterialPageRoute(builder: (context) => BluetoothPage()),
-            //     );
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => BluetoothPage()),
+            );
           },
           icon: const Icon(
             Icons.bluetooth,

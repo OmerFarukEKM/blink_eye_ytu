@@ -1,3 +1,4 @@
+import 'package:blink_eye_ytu/register_page.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatefulWidget {

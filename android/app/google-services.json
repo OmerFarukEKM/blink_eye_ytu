@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "910229994723",
+    "project_id": "blink-eye-ytu",
+    "storage_bucket": "blink-eye-ytu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910229994723:android:49e36004382dd36e7199d6",
+        "android_client_info": {
+          "package_name": "com.msolak.blink_eye_ytu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz_hUrEt4JlijhxgxRAPsZlTZb5wef48Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
