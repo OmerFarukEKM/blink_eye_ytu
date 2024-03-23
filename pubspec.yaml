@@ -37,6 +37,15 @@ dependencies:
   flutter_blue: ^0.8.0
   cloud_firestore: ^4.15.9
   firebase_core: ^2.27.1
+  flutter_native_splash: ^2.4.0
+
+flutter_native_splash:
+  color: "#eae7d8"
+  image: "assets/logo.png"
+  android_12:
+    image: assets/logo.png
+  android: true
+  ios: true
 
 dev_dependencies:
   flutter_test:
@@ -49,6 +58,7 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^3.0.0
   flutter_launcher_icons: ^0.13.1
+
 flutter_launcher_icons:
   android: "ic_launcher" # burda ayar yaptık unutma onu
   ios: true
@@ -57,8 +67,8 @@ flutter_launcher_icons:
   web:
     generate: true
     image_path: "assets/logo.png"
-    background_color: "##eae7d8"
-    theme_color: "##eae7d8"
+    background_color: "#eae7d8"
+    theme_color: "#eae7d8"
   windows:
     generate: true
     image_path: "assets/logo.png"
