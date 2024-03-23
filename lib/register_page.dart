@@ -1,3 +1,5 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 class RegisterPage extends StatefulWidget {
@@ -47,10 +49,21 @@ class _RegisterPageState extends State<RegisterPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      extendBodyBehindAppBar: true,
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back),
+          onPressed: () {
+            Navigator.pop(context); // Navigate back to previous screen
+          },
+        ),
+      ),
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage("assets/background.png"),
+            image: AssetImage("assets/background2.png"),
             fit: BoxFit.cover,
           ),
         ),
@@ -73,8 +86,8 @@ class _RegisterPageState extends State<RegisterPage> {
                 children: [
                   Image.asset(
                     "assets/register_pp.png",
-                    height: 280,
-                    width: 280,
+                    height: 200,
+                    width: 200,
                   ),
                   Text(
                     "Create Profile",

@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 class AppDrawer extends StatelessWidget {
@@ -69,8 +70,11 @@ class AppDrawer extends StatelessWidget {
             leading: Icon(Icons.logout),
             title: Text('Çıkış'),
             onTap: () {
-              // Implement logout logic here
-              // For example, show a confirmation dialog and log the user out
+              FirebaseAuth.instance.signOut();
+              Scaffold.of(context)
+                  .closeDrawer(); // bunu koymamızın sebebi adam tekrar drawerdaki kapatma tuşuna basmasın diye
+              // Hakkında sayfasına yönlendir
+              Navigator.pushNamed(context, '/about');
             },
           ),
         ],

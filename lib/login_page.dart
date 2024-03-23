@@ -1,4 +1,5 @@
 import 'package:blink_eye_ytu/register_page.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatefulWidget {
@@ -20,7 +21,7 @@ class _LoginPageState extends State<LoginPage> {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage("assets/background.png"),
+            image: AssetImage("assets/background2.png"),
             fit: BoxFit.cover,
           ),
         ),
@@ -42,8 +43,8 @@ class _LoginPageState extends State<LoginPage> {
               Column(children: [
                 Image.asset(
                   "assets/register_pp.png",
-                  height: 280,
-                  width: 280,
+                  height: 200,
+                  width: 200,
                 ),
                 Text(
                   "Enter Profile",
@@ -65,7 +66,7 @@ class _LoginPageState extends State<LoginPage> {
                   }
                 },
               ),
-              SizedBox(height: 4),
+              // SizedBox(height: 4),
               TextField(
                 decoration: InputDecoration(hintText: "Enter password"),
                 keyboardType: TextInputType.visiblePassword,
