@@ -39,6 +39,8 @@ dependencies:
   firebase_core: ^2.27.1
   flutter_native_splash: ^2.4.0
   firebase_auth: ^4.17.9
+  image_picker: ^1.0.7
+  shared_preferences: ^2.2.2
 
 flutter_native_splash:
   color: "#eae7d8"
@@ -64,6 +66,8 @@ flutter_launcher_icons:
   android: "ic_launcher" # burda ayar yaptık unutma onu
   ios: true
   image_path: "assets/logo.png"
+  adaptive_icon_background: "assets/logo_background.png"
+  adaptive_icon_foreground: "assets/logo.png"
   min_sdk_android: 21 # android min sdk min:16, default 21
   web:
     generate: true
