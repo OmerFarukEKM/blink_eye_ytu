@@ -22,6 +22,3 @@ Future<void> main() async {
   FlutterNativeSplash.remove();
   runApp(LoadingPage());
 }
-
-
-// cors ayarları yapılamadı google kısmına tekrardan bak 

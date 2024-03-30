@@ -1,4 +1,4 @@
-import 'package:blink_eye_ytu/find_bluetooth.dart';
+import 'package:blink_eye_ytu/bluetooth/find_bluetooth.dart';
 import 'package:flutter/material.dart';
 
 class AppAppBar extends StatefulWidget implements PreferredSizeWidget {

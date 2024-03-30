@@ -68,7 +68,7 @@ class _RegisterPageState extends State<RegisterPage> {
           ),
         ),
         child: Padding(
-          padding: const EdgeInsets.all(48.0),
+          padding: const EdgeInsets.all(44.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.center,
